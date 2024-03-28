@@ -6,21 +6,24 @@ body {
 }
 
 nav {
+ /* display: grid;
+  grid-template-columns: 20% 60%;
+  grid-template-areas: "logo" "ul"; */
   margin:0px;
-  padding: 0px;
-  height: 100px;
+  padding: 10px;
+  height: auto;
   width:auto;
   background-color: #b7f0f1;
   box-shadow: 0px 4px 4px #00000040;
 }
 
 ul {
-  margin-top:-80px;
-  margin-right: 80px;
+  margin-top:-92px;
+  margin-right: 40px;
   list-style: none;
   display: flex; 
   text-align: center;
-  float:right;
+  float: right;
 
 }
 
@@ -39,9 +42,10 @@ li {
 
   .logo {
     display: flex;
-    margin-top:0px;
-    width: 80px;
-    height: 82px;
+    margin-top: 0px;
+    margin-left: 10px;
+    width: auto;
+    max-height: 80px;
   }
 
   .ellipse {
@@ -216,14 +220,10 @@ p {
   "avery";
 }
 
-
-
-
-
   .textBold {
     position:absolute;
-    top: 20px;
-    left: 95px;
+    top: 24px;
+    left: 110px;
     font-family: "PT Serif-Bold";
     font-weight: 700;
     color: #262626;
@@ -234,8 +234,8 @@ p {
   .textCaps {
     position: absolute;
 
-    top: 50px;
-    left: 131px;
+    top: 52px;
+    left: 145px;
     font-family: "PT Sans";
     font-weight: 500;
     color: #262626;
@@ -244,11 +244,22 @@ p {
   }
 
   .footer {
+    display: grid;
+    grid-template-columns: 20% 60%;
+    grid-template-areas: "logo2" "ul";
     margin:0px;
-    padding: 0px;
-    height: 300px;
+    padding-top: 100px;
+    height: auto;
     width:auto;
     background-color: #b7f0f1;
-    box-shadow: 0px 4px 4px #00000040;
+  
+  }
+
+  .logo2 {
+    display: inline-flex;
+    margin-top: -10%;
+    margin-left: 10%;
+    width: auto;
+    max-height: 150px;
   }
   
