@@ -28,7 +28,7 @@ ul {
 }
 
 li {
-  margin:0px;
+  margin:auto;
   display: flex;
   padding:40px;
   margin-top: 0px;
@@ -64,6 +64,15 @@ li {
     margin-top: 20px;
     margin-left: 20px;
   }
+
+  .donateButton {
+    margin-bottom: 5%;
+    /*padding: 8px;*/
+    background-color: #edb2a9;
+    border-radius: 54px;
+  
+  }
+  
 
 h1{
   text-align: center;
@@ -245,7 +254,7 @@ p {
 
   .footer {
     display: grid;
-    grid-template-columns: 20% 60%;
+    grid-template-columns: 40% 60%;
     grid-template-areas: "logo2" "ul";
     margin:0px;
     padding-top: 100px;
