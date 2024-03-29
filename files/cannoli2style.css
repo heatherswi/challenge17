@@ -41,38 +41,38 @@ li {
 }
 
 
-  .logo {
+.logo {
     display: flex;
     margin-top: 0px;
     margin-left: 40px;
     width: auto;
     max-height: 80px;
-  }
+ }
 
-  .ellipse {
+.ellipse {
     display: flex;
     width: 23px;
     height: 22px;
     border-radius: 19px/19px;
     border: 2px solid;
     border-color: #000000;
-  }
+}
   
-  .line {
+.line {
     display: flex;
     width: 8px;
     height: 8px;
     margin-top: 20px;
     margin-left: 20px;
-  }
+}
 
-  .donateButton {
+.donateButton {
     margin-bottom: 5%;
     /*padding: 8px;*/
     background-color: #edb2a9;
     border-radius: 54px;
   
-  }
+}
   
 
 h1{
@@ -164,6 +164,7 @@ p {
 .cannoliPic {
   display:flex;
   max-width: 100%;
+  min-width: 70%;
   height: auto;
   margin-top: -12%;
   border-radius: 50px;
@@ -289,7 +290,9 @@ p {
   .hamburgerMenu {
     display: flex;
     margin-right: -30px;
+    
   }
+
 
 
   @media screen and (max-width: 1280px){
@@ -312,7 +315,6 @@ p {
       display: flex; 
       text-align: center;
       float: right;
-    
     }
     
     li {
@@ -327,6 +329,60 @@ p {
       text-align: left;
     }
 
-
   }
   
+.cannoliCardMobile {
+  display: none;
+}
+
+  @media screen and (max-width: 1280px){
+
+    .cannoliCard {
+      display:none;
+    }
+
+
+    .cannoliCardMobile {
+      margin: 100px;
+      padding: 20px;
+      display: grid;
+      grid-template-rows: 0.5fr 10% 60%;
+      grid-template-areas: "cannoliPicMobile" 
+      "cannoliTextLeftMobile" "cannoliMobile";
+      background-color: #e0f1f2;
+      border-radius: 50px;
+      border: 3px solid;
+      border-color: #edb2a9;
+      box-shadow: 0px 4px 4px #00000040;
+
+    }
+    
+    .cannoliTextLeftMobile {
+      text-align: left;
+    }
+    
+    .cannoliMobile {
+      font-family: "PT Sans";
+      padding-left: 50px;
+      padding-right: 50px;
+      font-weight: 400;
+      color: #262626;
+      font-size: 20px;
+      text-align: left;
+    }
+    
+    
+    .cannoliPicMobile {
+      display: inline-block;
+      width: 50%;
+      min-width: 20%;
+      height: auto;
+      justify-content: center;
+      align-content: center;
+      border-radius: 50px;
+      border: 3px solid;
+      border-color: #edb2a9;
+    }
+
+
+  }
