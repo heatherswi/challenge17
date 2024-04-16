@@ -206,12 +206,47 @@ p {
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
+.modalText {
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family: "PT Sans";
+
+  font-weight: 400;
+  color: #262626;
+  font-size: 20px;
+}
 .modalContent {
   background-color: #fefefe;
   margin: 20% auto; /* 20% from the top and centered */
   padding: 20px;
   border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
+  width: 60%; /* Could be more or less, depending on screen size */
+  justify-content: center;
+  align-content: center;
+}
+
+#archieButton {
+  font-family: "PT Sans";
+  padding: 10px;
+  font-weight: bolder;
+  color: #000000;
+  font-size: 18px;
+  text-align: center;
+  display: inline-block;
+  background-color: #56bcbe;
+  border-radius: 53px;
+  border-style: none;
+  cursor: pointer;
+}
+
+.archiePic {
+  width: 30%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-content: center;
+  justify-content: center;
 }
 
 
