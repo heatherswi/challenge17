@@ -23,3 +23,11 @@ window.onclick = function(event) {
     modal.style.display = "none";
   }
 }
+
+
+ $( "li" ).hover(
+  function() {
+    $( this )
+    .toggleClass( "active" )
+}); 
+
